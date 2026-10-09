@@ -1,0 +1,134 @@
+[
+  {
+    "id": "BM-01",
+    "category": "Direct Factual",
+    "question": "I have 72% attendance. How many attendance marks will I get?",
+    "expected_answer": "With 72% attendance, you fall into the 60% – 74.99% tier and will receive 4 marks out of 10.",
+    "expected_sources": ["Mirai_SoT_Policy_Handbook_2026.pdf"],
+    "expected_pages": [3],
+    "key_criteria": ["4 marks", "60% – 74.99%"],
+    "forbidden_terms": ["10 marks", "8 marks", "6 marks", "0 marks"],
+    "is_unsupported": false
+  },
+  {
+    "id": "BM-02",
+    "category": "Direct Factual",
+    "question": "What is the minimum attendance required to avoid being debarred from the Final Exam?",
+    "expected_answer": "Students with attendance below 60% are debarred from the Final Exam for that subject (receiving 0 marks). The minimum general attendance requirement across courses is 75%.",
+    "expected_sources": ["Mirai_SoT_Policy_Handbook_2026.pdf"],
+    "expected_pages": [3, 5],
+    "key_criteria": ["below 60%", "debarred", "75%"],
+    "forbidden_terms": ["below 50%", "below 40%"],
+    "is_unsupported": false
+  },
+  {
+    "id": "BM-03",
+    "category": "Multi-Hop Reasoning",
+    "question": "I study at the Ratnam campus. I got sick and need medical leave. Who do I email and how many days do I have to submit my documents?",
+    "expected_answer": "For Ratnam campus, you must contact/email your Campus Manager, Yashaswini Ma'am. All supporting medical documents must be submitted within 7 days from the last day of illness or treatment.",
+    "expected_sources": ["Mirai_SoT_Policy_Handbook_2026.pdf"],
+    "expected_pages": [14, 15],
+    "key_criteria": ["yashaswini", "7 days", "ratnam"],
+    "forbidden_terms": ["sundaram", "dolly", "14 days", "30 days"],
+    "is_unsupported": false
+  },
+  {
+    "id": "BM-04",
+    "category": "Multi-Hop Reasoning",
+    "question": "Who is the Campus Manager for the HI-Tech campus, and what is the escalation procedure if my medical leave is rejected by them?",
+    "expected_answer": "The Campus Manager for HI-Tech campus is Sundaram Sir (L1). If your request is not resolved at the CM level, you can escalate to L2: Dr. Abhilash Karakoti (abhilash.karakoti@msot.org), and finally to L3: Mr. Arpit Sarda (arpit@msot.org).",
+    "expected_sources": ["Mirai_SoT_Policy_Handbook_2026.pdf"],
+    "expected_pages": [15],
+    "key_criteria": ["sundaram", "abhilash", "arpit"],
+    "forbidden_terms": ["yashaswini", "dolly"],
+    "is_unsupported": false
+  },
+  {
+    "id": "BM-05",
+    "category": "Conditions & Exceptions",
+    "question": "What is the medical leverage cap for attendance and what is the strict deadline to apply for it?",
+    "expected_answer": "The medical leverage cap is up to 15% (applied to verified medical cases). Supporting documents must be submitted within the strict 7-day window; otherwise absence is marked regular and no relaxation is granted.",
+    "expected_sources": ["Mirai_SoT_Policy_Handbook_2026.pdf"],
+    "expected_pages": [14],
+    "key_criteria": ["15%", "7 days", "7-day"],
+    "forbidden_terms": ["25%", "20%", "30 days"],
+    "is_unsupported": false
+  },
+  {
+    "id": "BM-06",
+    "category": "Conditions & Process",
+    "question": "We want to start a new Cybersecurity society under the Tech Club. Do we ask Management directly?",
+    "expected_answer": "No, you do not ask Management directly. A new student society proposal requires at least 40% batch support with student signatures and must be submitted to the designated Faculty Coordinator first for initial review.",
+    "expected_sources": ["Mirai_SoT_Policy_Handbook_2026.pdf"],
+    "expected_pages": [10, 11],
+    "key_criteria": ["40%", "faculty coordinator", "not management"],
+    "forbidden_terms": ["yes, ask management", "submit directly to management", "50%"],
+    "is_unsupported": false
+  },
+  {
+    "id": "BM-07",
+    "category": "Paraphrased & Informal",
+    "question": "I missed a bunch of classes and only have 81% attendance. Do I get docked all my attendance marks?",
+    "expected_answer": "No, you do not lose all marks. With 81% attendance, you fall into the 80% – 89.99% tier and will receive 8 marks out of 10.",
+    "expected_sources": ["Mirai_SoT_Policy_Handbook_2026.pdf"],
+    "expected_pages": [3],
+    "key_criteria": ["8 marks", "80% – 89.99%"],
+    "forbidden_terms": ["0 marks", "4 marks", "10 marks"],
+    "is_unsupported": false
+  },
+  {
+    "id": "BM-08",
+    "category": "Paraphrased & Informal",
+    "question": "I got hospitalized for typhoid. How much time do I have after getting discharged to give my hospital bills and medical certificate?",
+    "expected_answer": "You must submit your registered medical practitioner certificate, prescription, and discharge summary within 7 days counted from the last day of illness/treatment or discharge to your Campus Manager.",
+    "expected_sources": ["Mirai_SoT_Policy_Handbook_2026.pdf"],
+    "expected_pages": [13, 14],
+    "key_criteria": ["7 days", "discharge", "campus manager"],
+    "forbidden_terms": ["14 days", "1 month"],
+    "is_unsupported": false
+  },
+  {
+    "id": "BM-09",
+    "category": "Ambiguous Inquiries",
+    "question": "How do I take leave?",
+    "expected_answer": "The handbook distinguishes between Medical Leave (illness/treatment) and Duty Leave (official competitions/events). Both require submitting official supporting documents to your Campus Manager within 7 days. Casual personal leaves are counted as regular absences.",
+    "expected_sources": ["Mirai_SoT_Policy_Handbook_2026.pdf"],
+    "expected_pages": [13, 14],
+    "key_criteria": ["medical leave", "duty leave", "campus manager", "7 days"],
+    "forbidden_terms": [],
+    "is_unsupported": false
+  },
+  {
+    "id": "BM-10",
+    "category": "Unsupported / Negative Constraint",
+    "question": "How much is the fine for smoking a cigarette on campus?",
+    "expected_answer": "Under the Code of Conduct (Page 9), possession or consumption of tobacco/smoking on campus is strictly prohibited and subject to Disciplinary Committee action. The policy handbook does not specify any monetary fine amount.",
+    "expected_sources": ["Mirai_SoT_Policy_Handbook_2026.pdf"],
+    "expected_pages": [9],
+    "key_criteria": ["prohibited", "disciplinary committee"],
+    "forbidden_terms": ["fine of ₹", "rs.", "$", "fine of 500", "fine of 1000", "fine of 2000"],
+    "is_unsupported": true
+  },
+  {
+    "id": "BM-11",
+    "category": "Unsupported / Out-of-Scope",
+    "question": "What is the guaranteed placement package or average CTC offered to Mirai CS graduates?",
+    "expected_answer": "The provided policy handbook does not contain information regarding placement packages, average CTC, or employment guarantees.",
+    "expected_sources": [],
+    "expected_pages": [],
+    "key_criteria": ["does not contain", "not mentioned in the policy handbook"],
+    "forbidden_terms": ["lpa", "10 lpa", "12 lpa", "guaranteed ctc", "placement percentage"],
+    "is_unsupported": true
+  },
+  {
+    "id": "BM-12",
+    "category": "Unsupported / Out-of-Scope",
+    "question": "What is the night curfew timing for the student hostel?",
+    "expected_answer": "The provided policy handbook does not specify hostel curfew timings or residential regulations.",
+    "expected_sources": [],
+    "expected_pages": [],
+    "key_criteria": ["does not contain", "not mentioned in the policy handbook"],
+    "forbidden_terms": ["10 pm", "9 pm", "11 pm", "curfew is"],
+    "is_unsupported": true
+  }
+]
